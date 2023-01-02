@@ -1,19 +1,23 @@
-# 💻 VSCode Writer 
-Introducing VSCode Writer - the VSCode extension that simplifies code writing and refactoring for developers. With VSCode Writer, you can easily decouple your code, generate unit tests, and get more done in less time.
-## Demo
-![demo gif](./.github/media/demo.gif)
+# 💻 **GPT Coder**
+Use OpenAI's powerful GPT-3 directly from your favorite IDE 🤖
 
-## 📝 Features
-- Write code quickly by asking VSCode Writer to do it for you
-- Refactor your code with one simple command
-- Decouple your code to make it more modular and maintainable
-- Generate unit tests for your selected code with ease
+## 🤯 Features
+### 🖊️ **Write code** more efficiently with _GPT Coder_'s assistance.
+![demo gif](./.github/media/write.gif)
+
+### 🧪 **Generate unit tests** with a single selection (~10 seconds)  
+![Tests demo](./.github/media/generate-tests.gif)
+
+## 🤔 How It Works 
+GPT Coder uses GPT-3 to understand your natural language instructions and generate **high-quality** code.    
 
 ## ⚙ Setup 
+As the extension uses GPT-3 model from OpenAI, you'll need to have an API key from OpenAI.
+
 ![Setup gif](./.github/media/setup.gif)
 
-To create a new API key on OpenAI's website, follow these steps:
-1. Go to the [OpenAI website](https://openai.com/) and either log in to your existing account or create a new account.
+To create a new API key on OpenAI's website, follow these steps:  
+1. Go to the [OpenAI website](https://openai.com/) log in to your account or create a new one.
 
 2. Once you are logged in, click on your account image in the top right corner of the screen.
 
@@ -23,8 +27,15 @@ To create a new API key on OpenAI's website, follow these steps:
 
 5. Execute `setup` command and paste the API key.
 
-## 🤔 How It Works 
-VSCode Writer uses GPT-3 to understand your natural language instructions and generate high-quality code. With VSCode Writer, you can write and refactor your code faster and with less effort.  
+## Supported Languages
+_GPT Coder_ is compatible with the following languages:
+- [React](#react)
+- [JavaScript](#javascript)
+- [.NET / C#](#netc)
+- [Rust](#rust)
+- [Go](#go)
+- [Python](#python)
+- [Java](#java)
 
 ## Examples
 ### React
@@ -42,5 +53,5 @@ VSCode Writer uses GPT-3 to understand your natural language instructions and ge
 ### Java
 ![Java example](.github/media/java.gif)
 
-### ⚡️ Try VSCode Writer Today ⚡️
-Install VSCode Writer now and discover the future of code writing and refactoring. 
+### ⚡️ Try GPT Coder Today ⚡️
+- Install GPT Coder now and discover the future of code writing.
